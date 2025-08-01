@@ -41,3 +41,7 @@ Tela inicial e os produtos.
 <br><br>Estoque reduzido.
 <img width="1918" height="679" alt="pag5" src="https://github.com/user-attachments/assets/698560f3-8c16-4a42-af6d-e39a560afa49" />
 
+# 📌 Observações
+ • O estoque só é atualizado ao finalizar a compra.
+ • Caso o usuário tente adicionar mais itens do que o estoque disponível, o botão será desabilitado.
+ • O projeto não possui backend ou banco de dados — todos os dados são simulados em arrays JavaScript.
