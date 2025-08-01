@@ -39,6 +39,8 @@ Tela inicial e os produtos.
 <img width="1242" height="299" alt="pag4" src="https://github.com/user-attachments/assets/5a06a25a-348b-4fa3-a785-93d8c8d9580e" />
 <br><br>Estoque reduzido.
 <img width="1918" height="679" alt="pag5" src="https://github.com/user-attachments/assets/698560f3-8c16-4a42-af6d-e39a560afa49" />
+<br><br>Imagem ampliada ao clicar.
+<img width="1916" height="1079" alt="pag6" src="https://github.com/user-attachments/assets/cbca113f-08c0-472b-8b66-781c9170aa7c" />
 
 # 📌 Observações
  • O estoque só é atualizado ao finalizar a compra.
