@@ -43,6 +43,6 @@ Tela inicial e os produtos.
 <img width="1916" height="1079" alt="pag6" src="https://github.com/user-attachments/assets/cbca113f-08c0-472b-8b66-781c9170aa7c" />
 
 # 📌 Observações
- • O estoque só é atualizado ao finalizar a compra.
- • Caso o usuário tente adicionar mais itens do que o estoque disponível, o botão será desabilitado.
- • O projeto não possui backend ou banco de dados — todos os dados são simulados em arrays JavaScript.
+ • O estoque só é atualizado ao finalizar a compra.<br>
+ • Caso o usuário tente adicionar mais itens do que o estoque disponível, o botão será desabilitado.<br>
+ • O projeto não possui backend ou banco de dados — todos os dados são simulados em arrays JavaScript.<br>
