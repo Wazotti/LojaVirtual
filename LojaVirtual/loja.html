@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Void</title>
+<script defer>
+const produtos = [
+  { id: 1, nome: "Tênis OUS Imigrante Essencial Preto", imagem: "img/tenis1.png", estoque: 5, categoria: "Tênis", valor: 299.9 },
+  { id: 2, nome: "Tênis OUS Ueno Preto Refletivo Essencial", imagem: "img/tenis2.png", estoque: 6, categoria: "Tênis", valor: 329.9 },
+  { id: 3, nome: "Tênis OUS Fluente Marrom Essencial", imagem: "img/tenis3.png", estoque: 4, categoria: "Tênis", valor: 319.9 },
+  { id: 4, nome: "Tênis Adidas ADI200 Branco", imagem: "img/tenis4.png", estoque: 6, categoria: "Tênis", valor: 799.9 },
+  { id: 5, nome: "Tênis Adidas Forum Bold Branco", imagem: "img/tenis5.png", estoque: 5, categoria: "Tênis", valor: 399.9 },
+  { id: 6, nome: "Tênis Adidas Campus 00s Bege", imagem: "img/tenis6.png", estoque: 5, categoria: "Tênis", valor: 369.9 },
+  { id: 7, nome: "Tênis Nike Dunk Low Branco", imagem: "img/tenis7.png", estoque: 7, categoria: "Tênis", valor: 359.9 },
+  { id: 8, nome: "Tênis Nike Air Force 1 Branco", imagem: "img/tenis8.png", estoque: 6, categoria: "Tênis", valor: 449.9 },
+  { id: 9, nome: "Camiseta Adidas Trefoil Preta", imagem: "img/camiseta1.png", estoque: 8, categoria: "Roupas", valor: 129.9 },
+  { id: 10, nome: "Camiseta Adidas Essentials Branca", imagem: "img/camiseta2.png", estoque: 7, categoria: "Roupas", valor: 119.9 },
+  { id: 11, nome: "Camiseta Adidas Originals Azul", imagem: "img/camiseta3.png", estoque: 6, categoria: "Roupas", valor: 139.9 },
+  { id: 12, nome: "Camiseta Adidas Street Sport Branca", imagem: "img/camiseta4.png", estoque: 5, categoria: "Roupas", valor: 129.9 },
+  { id: 13, nome: "Camiseta Adidas 3 Listras Verde Militar", imagem: "img/camiseta5.png", estoque: 6, categoria: "Roupas", valor: 149.9 },
+  { id: 14, nome: "Camiseta Nike Sportswear Club Preta", imagem: "img/camiseta6.png", estoque: 6, categoria: "Roupas", valor: 129.9 },
+  { id: 15, nome: "Camiseta Nike Dri-FIT Cinza", imagem: "img/camiseta7.png", estoque: 5, categoria: "Roupas", valor: 119.9 },
+  { id: 16, nome: "Camiseta Nike Futura Branca", imagem: "img/camiseta8.png", estoque: 4, categoria: "Roupas", valor: 129.9 },
+  { id: 17, nome: "Camiseta Nike SB Rosa", imagem: "img/camiseta9.png", estoque: 3, categoria: "Roupas", valor: 139.9 },
+  { id: 18, nome: "Camiseta Nike Just Do It Vermelha", imagem: "img/camiseta10.png", estoque: 5, categoria: "Roupas", valor: 129.9 },
+  { id: 19, nome: "Moletom Adidas Essentials Preto", imagem: "img/moletom1.png", estoque: 4, categoria: "Roupas", valor: 199.9 },
+  { id: 20, nome: "Moletom Adidas Cinza com Capuz", imagem: "img/moletom2.png", estoque: 3, categoria: "Roupas", valor: 219.9 },
+  { id: 21, nome: "Óculos de Sol Redondo Retrô Preto Fosco", imagem: "img/oculos1.png", estoque: 6, categoria: "Acessórios", valor: 119.9 },
+  { id: 22, nome: "Óculos de Sol Esportivo Espelhado Prata", imagem: "img/oculos2.png", estoque: 5, categoria: "Acessórios", valor: 139.9 },
+  { id: 23, nome: "Boné Nike Heritage 86 Preto", imagem: "img/bone1.png", estoque: 7, categoria: "Acessórios", valor: 99.9 },
+  { id: 24, nome: "Boné Five Panel Grafitti", imagem: "img/bone2.png", estoque: 6, categoria: "Acessórios", valor: 89.9 },
+  { id: 25, nome: "Boné OUS Aba Reta Bege", imagem: "img/bone3.png", estoque: 5, categoria: "Acessórios", valor: 109.9 },
+  { id: 26, nome: "Boné New Era 9Fifty NY Preto", imagem: "img/bone4.png", estoque: 5, categoria: "Acessórios", valor: 129.9 },
+  { id: 27, nome: "Boné High Aba Reta Bege", imagem: "img/bone5.png", estoque: 4, categoria: "Acessórios", valor: 99.9 },
+  { id: 28, nome: "Calça Nike Sportswear Cargo Preta", imagem: "img/calca1.png", estoque: 5, categoria: "Roupas", valor: 179.9 },
+  { id: 29, nome: "Calça Adidas Cargo Verde", imagem: "img/calca2.png", estoque: 5, categoria: "Roupas", valor: 189.9 },
+  { id: 30, nome: "Calça OUS Jogger Caqui", imagem: "img/calca3.png", estoque: 5, categoria: "Roupas", valor: 159.9 },
+  { id: 31, nome: "Calça Puma Ess Pants Cinza Mescla", imagem: "img/calca4.png", estoque: 4, categoria: "Roupas", valor: 149.9 },
+  { id: 32, nome: "Calça High Cargo Preta", imagem: "img/calca5.png", estoque: 3, categoria: "Roupas", valor: 199.9 }
+];
+</script>
+  </script>
+  <script src="main.js" defer></script>
+  <script src="categorias.js" defer></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-zinc-100">
+
+  <header class="bg-white shadow p-4">
+    <div class="flex justify-between items-center mb-2">
+        
+    <form onsubmit="event.preventDefault(); pesquisarProduto(document.getElementById('barra-pesquisa').value)">
+        <div class="relative flex items-center space-x-2">
+            <button id="btn-toggle-pesquisa" onclick="togglePesquisa()" type="button" class="bg-black text-white text-xl px-4 py-1 rounded mt-16" hover:bg-gray-800 transition">BUSCAR</button>
+            <input type="text" id="barra-pesquisa" placeholder="Buscar..." oninput="pesquisarProduto(this.value)" class="w-0 opacity-0 px-2 py-1 border rounded text-sm transition-all duration-300 ease-in-out focus:w-40 focus:opacity-100 mt-16">
+        </div>
+    </form>
+
+    <a href="loja.html" class="absolute left-1/2 transform -translate-x-1/2 top-2">
+        <img src="img/logo.png" alt="Logo da Star Void" class="h-[90px] hover:opacity-80 transition mt-6"/>
+    </a>
+
+      <button onclick="toggleCarrinho()" class="bg-black text-white text-xl px-5 py-1 rounded mt-16">CARRINHO</button>
+      <span id="contador-carrinho" class="absolute top-20 right-4 bg-white text-black text-[10px] w-4 h-4 rounded-full flex items-center justify-center shadow">0</span>
+    </div>
+
+    <nav class="flex justify-center space-x-7 mb-1 mt-10">
+      <button onclick="filtrarCategoria('Tênis')" class="text-zinc-700 hover:underline">Tênis</button>
+      <button onclick="filtrarCategoria('Roupas')" class="text-zinc-700 hover:underline">Roupas</button>
+      <button onclick="filtrarCategoria('Acessórios')" class="text-zinc-700 hover:underline">Acessórios</button>
+      <button onclick="mostrarTodosProdutos()" class="text-zinc-900 hover:underline">Todos</button>
+    </nav>
+  </header>
+
+  <main class="p-4">
+    <h2 class="text-2xl font-semibold mb-4">Produtos Streetwear</h2>
+    <div id="produtos-container" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    </div>
+  </main>
+
+  <aside id="carrinho" class="hidden fixed right-0 top-0 w-80 bg-white shadow-lg h-full p-4 overflow-y-auto z-50">
+  <div class="flex justify-between items-center mb-2">
+    <h3 class="text-xl font-semibold">Carrinho</h3>
+    <button aria-label="Fechar carrinho" onclick="toggleCarrinho()" class="text-xl font-bold px-2 py-1 rounded hover:bg-zinc-100">&times;</button></div>
+  <ul id="lista-carrinho" class="mb-4 space-y-2"></ul>
+  <button onclick="finalizarCompra()" class="bg-black text-white px-4 py-2 rounded">Finalizar Compra</button>
+</aside>
+
+  <div id="modal-imagem" class="hidden fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
+    <div class="relative max-w-3xl max-h-full p-4">
+        <button id="fechar-modal" class="absolute top-2 right-2 text-white text-3xl font-bold">&times;</button>
+        <img id="imagem-ampliada" src="" alt="Imagem ampliada" class="max-w-full max-h-[80vh] rounded" />
+  </div>
+</div>
+</body>
+</html>
