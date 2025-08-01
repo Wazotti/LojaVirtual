@@ -22,7 +22,7 @@ O projeto simula uma experiência básica de e-commerce, com listagem de produto
 
 # 🚀 Como Executar o Projeto
 1- Baixe ou clone o repositório:<br>
-2- Abra o arquivo index.html ou loja.html no seu navegador.<br>
+2- Abra o arquivo loja.html no seu navegador.<br>
  • Não é necessário servidor, pois é um projeto 100% front-end.<br>
 3- Explore a loja!<br>
  • Clique em Carrinho para abrir e adicionar produtos<br>
