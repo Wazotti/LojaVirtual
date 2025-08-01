@@ -9,7 +9,6 @@ O projeto simula uma experiência básica de e-commerce, com listagem de produto
 ✅ Carrinho de compras:<br>
  • Adição de produtos;<br>
  • Contagem total de itens;<br>
- • Cálculo automático do valor total;<br>
  • Fechar aba do carrinho com X ou tecla ESC;<br>
  • Diminuição do estoque ao finalizar compra.<br>
 ✅ Visualização de imagem ampliada ao clicar no produto.<br>
