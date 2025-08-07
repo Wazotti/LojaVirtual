@@ -1,4 +1,4 @@
-# 🛍️ Star Void - Loja Virtual
+# 🌌 Star Void - Loja Virtual
 Uma loja virtual de produtos streetwear desenvolvida para fins acadêmicos.
 O projeto simula uma experiência básica de e-commerce, com listagem de produtos, busca, filtro por categoria e carrinho de compras funcional.
 
